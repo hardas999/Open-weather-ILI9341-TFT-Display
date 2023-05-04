@@ -24,3 +24,10 @@ Latest screen grabs:
 
 ![TFT screenshot 1](https://i.imgur.com/ORovwNY.png)
 
+![TFT screenshot 2](https://i.imgur.com/y44xASD.png)
+
+
+
+
+
+
