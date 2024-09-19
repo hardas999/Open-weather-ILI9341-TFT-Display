@@ -43,8 +43,11 @@ const String units = "metric";
 const String api_key = "9aa098b4e0ee20f3e839a96648d6fd89";
 
 // Set the forecast longitude and latitude to at least 4 decimal places
-const String latitude =  "54.8265"; // 90.0000 to -90.0000 negative for Southern hemisphere
-const String longitude = "23.8222"; // 180.000 to -180.000 negative for West
+const String latitude =  "54.9092"; // Vilijampolė
+const String longitude = "23.8897"; // Vilijampolė
+
+//const String latitude =  "54.8265"; // Mastaičiai
+//const String longitude = "23.8221"; // Mastaičiai
 
 // For language codes see https://openweathermap.org/current#multi
 const String language = "lt"; // Default language = en = English
