@@ -58,7 +58,7 @@ bool OW_Weather::getForecast(OW_current *current, OW_hourly *hourly, OW_daily *d
   if (!daily)    exclude += ",daily";
 
   // One call API now subscription
-  String url = "https://api.openweathermap.org/data/2.5/onecall?lat=" + latitude + "&lon=" + longitude + "&exclude=minutely" + exclude + "&units=" + units + "&lang=" + language + "&appid=" + api_key;
+  String url = "https://api.openweathermap.org/data/3.0/onecall?lat=" + latitude + "&lon=" + longitude + "&exclude=minutely" + exclude + "&units=" + units + "&lang=" + language + "&appid=" + api_key;
 
   // Send GET request and feed the parser
   bool result = parseRequest(url);
@@ -88,7 +88,7 @@ bool OW_Weather::getForecast(OW_forecast *forecast, String api_key,
   this->forecast  = forecast;
 
   // 5 day forecast every 3 hours from request time
-  String url = "https://api.openweathermap.org/data/2.5/forecast?lat=" + latitude + "&lon=" + longitude + "&units=" + units + "&lang=" + language + "&appid=" + api_key;
+  String url = "https://api.openweathermap.org/data/3.0/forecast?lat=" + latitude + "&lon=" + longitude + "&units=" + units + "&lang=" + language + "&appid=" + api_key;
 
   // Send GET request and feed the parser
   bool result = parseRequest(url);
